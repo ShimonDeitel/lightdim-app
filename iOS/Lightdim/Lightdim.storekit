@@ -1,0 +1,40 @@
+{
+  "identifier" : "Lightdim",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {},
+  "subscriptionGroups" : [
+    {
+      "id" : "lightdim_pro_group",
+      "localizations" : [],
+      "name" : "Lightdim Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "1.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "lightdim_pro_monthly",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Unlocks Weekly consistency chart and reminder alerts",
+              "displayName" : "Lightdim Pro",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.shimondeitel.lightexposurelog.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Lightdim Pro Monthly",
+          "subscriptionGroupID" : "lightdim_pro_group",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
